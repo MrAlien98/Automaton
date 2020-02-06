@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<BorderPane prefHeight="591.0" prefWidth="663.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="application.SampleController">
+   <center>
+      <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Pane prefHeight="39.0" prefWidth="663.0" BorderPane.alignment="CENTER">
+         <children>
+            <CheckBox fx:id="cbCreateLine" layoutX="145.0" layoutY="11.0" mnemonicParsing="false" text="Crear Linea" />
+            <CheckBox fx:id="cbCreateState" layoutX="452.0" layoutY="11.0" mnemonicParsing="false" text="Crear Estado" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>
